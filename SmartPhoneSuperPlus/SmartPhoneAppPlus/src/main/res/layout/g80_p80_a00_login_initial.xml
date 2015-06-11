@@ -1,0 +1,305 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blueLite"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/util_titlebar_background"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout126"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_margin="2dp" >
+
+            <TextView
+                android:id="@+id/textView280"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#fff"
+                android:textSize="16dp"
+                android:text="初期設定"
+                android:gravity="center"
+                android:padding="5dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:id="@+id/group2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginBottom="15dp">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout56"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout203"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_marginBottom="5dp"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:id="@+id/textView81"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="2dp"
+                            android:text=" 初めてのみ初期設定が必要です。"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/textView215"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="2dp"
+                            android:text="（この作業は後からでもできます）"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout59"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/util_com_headline_1"
+                        android:orientation="horizontal"
+                        android:padding="10dp"
+                        android:gravity="center|left"
+                        android:layout_marginBottom="-3dp" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="left|center"
+                            android:orientation="vertical"
+                            android:id="@+id/linearLayout58"
+                            android:layout_weight="1" >
+
+                            <TextView
+                                android:id="@+id/textView89"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="2dp"
+                                android:text="東横INN公式HPから予約したことがある方"
+                                android:textColor="@color/white"
+                                android:textSize="13dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/g80_p80_member_card"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/util_com_background_1"
+                        android:orientation="horizontal"
+                        android:padding="15dp"
+                        android:gravity="center|left"
+                        android:layout_marginBottom="-3dp" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageView18"
+                            android:src="@drawable/ic_mid_memcard"
+                            android:layout_marginRight="10dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="left|center"
+                            android:orientation="vertical"
+                            android:id="@+id/linearLayout92"
+                            android:layout_weight="1" >
+
+                            <TextView
+                                android:id="@+id/textView133"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="2dp"
+                                android:text="東横INN公式HPから予約したことがある方 "
+                                android:textColor="@color/black"
+                                android:textSize="13dp" />
+                        </LinearLayout>
+
+<!--                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageView15"
+                            android:src="@drawable/ic_g09_arrow" />-->
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/g80_p80_applied_before"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/util_com_background_1"
+                        android:orientation="horizontal"
+                        android:padding="15dp"
+                        android:gravity="center|left"
+                        android:layout_marginBottom="5dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageView16"
+                            android:src="@drawable/ic_mid_general_user"
+                            android:layout_marginRight="10dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="left|center"
+                            android:orientation="vertical"
+                            android:id="@+id/linearLayout94"
+                            android:layout_weight="1" >
+
+                            <TextView
+                                android:id="@+id/textView134eeee"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="2dp"
+                                android:textSize="13dp"
+                                android:text="一般のお客様 "
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+
+<!--                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageView17"
+                            android:src="@drawable/ic_g09_arrow" />-->
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout150"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/util_com_headline_1"
+                        android:orientation="horizontal"
+                        android:padding="10dp"
+                        android:gravity="center|left"
+                        android:layout_marginBottom="-3dp" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="left|center"
+                            android:orientation="vertical"
+                            android:id="@+id/linearLayout148"
+                            android:layout_weight="1" >
+
+                            <TextView
+                                android:id="@+id/textView303"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="2dp"
+                                android:text="東横INN公式HPから予約したことがない"
+                                android:textColor="@color/white"
+                                android:textSize="13dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/g80_p80_new_user"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/util_com_background_1"
+                        android:orientation="horizontal"
+                        android:padding="13dp"
+                        android:gravity="center|left"
+                        android:layout_marginBottom="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="left|center"
+                            android:orientation="vertical"
+                            android:id="@+id/linessarLayout64"
+                            android:layout_weight="1" >
+
+                            <TextView
+                                android:id="@+id/textVssiew93"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="2dp"
+                                android:textSize="13dp"
+                                android:text=" 初めて公式ＨＰから予約する方はこちら"
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewssss22"
+                            android:src="@drawable/ic_g09_arrow" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout54"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:gravity="center_horizontal">
+
+                        <Button
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="後で設定する"
+                            android:id="@+id/g80_p80_back_home"
+                            android:background="@drawable/util_com_button_1"
+                            android:textColor="@color/white"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            android:layout_weight="1"
+                            android:textSize="16dp" />
+
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"></LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">toyoko-inn</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_g00_splash">G00SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_g01_dashboard">G01DashboardActivity</string>
+    <string name="title_activity_g02_account_information">G02AccountInformation</string>
+    <string name="title_activity_g03_location_map">G03LocationMapActivity</string>
+    <string name="title_activity_g04_destination_search">G04DestinationSearchActivity</string>
+    <string name="title_activity_g05_destination_search_by_area">G05DestinationSearchByAreaActivity</string>
+    <string name="title_activity_g05_details_search">G05DetailsSearchActivity</string>
+    <string name="title_activity_g06_search_by_condition">G06SearchByConditionActivity</string>
+    <string name="title_activity_g10_hotel_overview">G10HotelOverviewActivity</string>
+    <string name="title_activity_g11_hotel_search">G11HotelSearchActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_my_list">MyList</string>
+    <string name="title_activity_g08_distance_specified">G08DistanceSpecified</string>
+    <string name="distance_specifed">距離指定</string>
+    <string name="str_g08_distance">現在地から</string>
+    <string name="title_activity_g09_accommodation_date">G09AccommodationDate</string>
+    <string name="title_activity_g05__test">G05_Test</string>
+    <string name="title_activity_child_view">child_view</string>
+    <string name="title_activity_expandable_list">ExpandableList Demo</string>
+    <string name="title_activity_g05__expandable_list_view_test">G05_ExpandableListViewTest</string>
+    <string name="title_activity_g10_hotel_info_scroll_view">G10HotelInfoScrollView</string>
+    <string name="title_activity_z04__image_view">Z04_ImageViewActivity</string>
+    <string name="title_activity_g06_bsearch_by_condition">G06BSearchByConditionActivity</string>
+    <string name="title_activity_g12_p16_choose_room">G12P16ChooseRoom</string>
+    <string name="title_activity_g13_p17_detail_choose_room">G13P17DetailChooseRoom</string>
+    <string name="title_activity_g14_p18_reservation">G14P18Reservation</string>
+    <string name="title_activity_g15_p19_reservation_confirmation">G15P19ReservationConfirmation</string>
+    <string name="title_activity_parent">ParentActivity</string>
+    <string name="title_activity_z07__calling">Z07_CallingActivity</string>
+    <string name="title_activity_g14_p18_reservation_registration">G14P18ReservationRegistration</string>
+    <string name="title_activity_z12__list_view">Z12_ListViewActivity</string>
+    <string name="title_activity_activity_g01_popup">activity_g01_popup</string>
+    <string name="title_activity_g07_p07_room_type">G07P07RoomTypeActivity</string>
+    <string name="title_activity_g08_p08_distance">G08P08DistanceActivity</string>
+
+
+
+    <string-array name="countryItems">
+        <item name="key">JPN</item>
+        <item name="value">日本</item>
+        <item name="key">CH</item>
+        <item name="value">韓国</item>
+        <item name="key">USA</item>
+        <item name="value">USA</item>
+        <item name="key">UK</item>
+        <item name="value">UK</item>
+    </string-array>
+    <string-array name="timeItems">
+        <item name="value">15:00</item>
+        <item name="value">16:00</item>
+        <item name="value">17:00</item>
+        <item name="value">18:00</item>
+    </string-array>
+    <string-array name="membershipPrefix">
+        <item name="value">I</item>
+        <item name="value">G</item>
+        <item name="value">GV</item>
+        <item name="value">L</item>
+        <item name="value">LV</item>
+        <item name="value">T</item>
+    </string-array>
+
+    <!-- Spinner1のドロップダウンアイテム -->
+    <string-array name="spinner1_item1">
+        <item name="key">1</item>
+        <item name="value">One</item>
+    </string-array>
+    <string-array name="spinner1_item2">
+        <item name="key">2</item>
+        <item name="value">Two</item>
+    </string-array>
+    <string-array name="spinner1_item3">
+        <item name="key">3</item>
+        <item name="value">Three</item>
+    </string-array>
+
+    <array name="spinner1_data">
+        <item>@array/spinner1_item1</item>
+        <item>@array/spinner1_item2</item>
+        <item>@array/spinner1_item3</item>
+    </array>
+
+
+
+
+    <string name="title_activity_z19__my">Z19_MyActivity</string>
+    <string name="title_activity_server_connection">ServerConnection</string>
+    <string name="title_activity_g31_p14_news_list">G31P14NewsList</string>
+    <string name="title_activity_g024_p32_a019_settings">G024P32A019Settings</string>
+    <string name="title_activity_g19_p27_a015_accommodation_history">G19P27A015AccommodationHistory</string>
+    <string name="title_activity_p31_g21_a017_favorites">P31G21A017Favorites</string>
+    <string name="title_activity_g33_p31_a31_browsing_history">G33P31A31BrowsingHistory</string>
+    <string name="title_activity_g17_p22_a14_reservation_confirm_update_cancel">G17P22A14ReservationConfirmUpdateCancel</string>
+    <string name="title_activity_g26_p23_a25_reservation_update">G26P23A25ReservationUpdate</string>
+    <string name="title_activity_g27_p24_a26_reservation_update_confirm">G27P24A26ReservationUpdateConfirm</string>
+    <string name="title_activity_g18_p25_a14_reservation_cancel">G18P25A14ReservationCancel</string>
+    <string name="title_activity_g16_p21_a13_reserv_confirm_update_cancel_list">G16P21A13ReservConfirmUpdateCancelList</string>
+    <string name="title_activity_g22_p29_a18_customer_info_update">G22P29A18CustomerInfoUpdate</string>
+    <string name="title_activity_g23_p30_a00_customer_info_update_confirm">G23P30A00CustomerInfoUpdateConfirm</string>
+    <string name="title_activity_g23_p38_customar_info_update_finish">G23P38CustomarInfoUpdateFinish</string>
+    <string name="title_activity_z14dynamic_layout_creator">Z14dynamicLayoutCreator</string>
+    <string name="title_activity_p26_g00_a00_login">P26G00A00Login</string>
+    <string name="title_activity_g00_p39_a00">G00P39A00</string>
+    <string name="title_activity_g00_p40_a00__login_using_name_birth">G00P40A00_LoginUsingNameBirth</string>
+    <string name="title_activity_g00_p41_a00_login_using_name_and_birth_two">G00P41A00LoginUsingNameAndBirthTwo</string>
+    <string name="title_activity_g00_p42_a00_customer_info_change">G00P42A00CustomerInfoChange</string>
+    <string name="title_activity_g00_p46_a00_login_registration_as_general">G00P46A00LoginRegistrationAsGeneral</string>
+    <string name="title_activity_g00_p47_a00_login_registration_as_general_confirm">G00P47A00LoginRegistrationAsGeneralCOnfirm</string>
+    <string name="title_activity_g00_p48_a00_login_registration_as_general_finish">G00P48A00LoginRegistrationAsGeneralFinish</string>
+    <string name="title_activity_g00_p43_login_registration_as_member">G00P43LoginRegistrationAsMember</string>
+    <string name="title_activity_g00_p44_login_registration_as_member_confirm">G00P44LoginRegistrationAsMemberConfirm</string>
+    <string name="title_activity_g00_p45_login_registration_as_member_finish">G00P45LoginRegistrationAsMemberFinish</string>
+    <string name="title_activity_g23_p38_a00_customer_info_update_confirm_finish">G23P38A00CustomerInfoUpdateConfirmFinish</string>
+    <string name="title_activity_common">CommonActivity</string>
+    <string name="title_activity_g15_p35_reservation_finish">G15P35ReservationFinish</string>
+    <string name="title_activity_g00_p50_a00_initial_setting">G00P50A00InitialSetting</string>
+    <string name="title_activity_g70_p70_password_forget">G70P70PasswordForget</string>
+    <string name="title_activity_g00_p00_a00_web_view">G00P00A00WebView</string>
+    <string name="title_activity_google_map_test">GoogleMapTestActivity</string>
+    <string name="title_activity_calender">CalenderActivity</string>
+    <string name="title_activity_sipdevelopment">SIPDevelopment</string>
+    <string name="title_activity_sximage_slider">SXImageSliderActivity</string>
+    <string name="title_activity_expendable_list_view">ExpendableListView</string>
+    <string name="title_activity_my_calendar">MyCalendar</string>
+    <string name="title_activity_android_dialogs">AndroidDialogs</string>
+    <string name="title_activity_date_picker_example">DatePickerExample</string>
+    <string name="title_activity_sheekbar">sheekbarActivity</string>
+    <string name="title_activity_clearable_edit_text">ClearableEditText</string>
+    <string name="title_activity_to_do_list">ToDoList</string>
+    <string name="title_activity_menu_item">MenuItem</string>
+    <string name="title_activity_x_new_events_list">xNewEventsListActivity</string>
+    <string name="title_activity_zzz_inflater">zzzInflaterActivity</string>
+    <string name="title_activity_wwww_main">wwwwMainActivity</string>
+
+    <string name="mokutekiichi">目的地</string>
+    <string name="shokuhakubi">宿泊日</string>
+    <string name="genzaiichishouhen">現在地周辺</string>
+    <string name="calender_date">2014年1月10日～1泊</string>
+    <string name="heya_suu">部屋数</string>
+    <string name="haku">泊</string>
+    <string name="one">1</string>
+    <string name="one_per_room">（1部屋あたり）</string>
+    <string name="number_people">人数</string>
+    <string name="non_smoking_room">禁煙ルーム</string>
+    <string name="nothing_specied">指定なし</string>
+    <string name="login">ログイン</string>
+    <string name="default_setting">アプリ初期設定がお済みでない方</string>
+    <string name="not_default_setting">アプリ初期設定がお済みでない方</string>
+    <string name="initial_setting_here">アプリ初期設定はこちら</string>
+    <string name="forget_password_here">パスワードを忘れた場合はこちら</string>
+    <string name="auto_login">自動ログイン</string>
+    <string name="password_display">パスワードを表示</string>
+    <string name="detault_setting">初期設定</string>
+    <string name="holding_membership_card">東横INNｸﾗﾌﾞｶｰﾄﾞをお持ちの会員様</string>
+    <string name="membership_number">会員番号（半角）</string>
+    <string name="membership_card_notes">カードに記載されているお名前（アルファベット）を入力してください。</string>
+    <string name="family_name">姓（半角アルファベット）</string>
+    <string name="first_name">名（半角アルファベット）</string>
+    <string name="next">次へ</string>
+    <string name="login_id">ID(メールアドレス)</string>
+    <string name="login_password">パスワード</string>
+    <string name="head_login_info">ログイン情報</string>
+    <string name="head_customer_basic_info">お客様基本情報</string>
+    <string name="head_email_delivery_info">メール配信情報</string>
+    <string name="dob">生年月日（数字8文字）</string>
+    <string name="gender">性別</string>
+    <string name="country">国籍</string>
+    <string name="phone_number">電話番号</string>
+    <string name="email_2">メールアドレス２(任意)</string>
+    <string name="enter_update_info">変更内容の入力</string>
+    <string name="enter_info">変更内容を入力し「確認画面へ」ボタンを押してください。</string>
+    <string name="accept_credit_card">利用可能なクレジットカード</string>
+    <string name="teiin">定員</string>
+    <string name="kaiin">会員</string>
+    <string name="uchiwake">内訳</string>
+    <string name="home">ホーム</string>
+    <string name="list">リスト</string>
+    <string name="filter">絞り込み</string>
+    <string name="riset">リセット</string>
+    <string name="back">戻る</string>
+    <string name="map">地図</string>
+    <string name="order">近い順</string>
+
+</resources>
+
+

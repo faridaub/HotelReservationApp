@@ -1,0 +1,438 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/blueLite"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/util_titlebar_background"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center|left"
+            android:orientation="horizontal"
+            android:id="@+id/g01_p01_top_button_layout">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/ic_title_logo" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="toyoko-inn.com"
+                android:id="@+id/g11p04_current_distance"
+                android:textColor="@color/white"
+                android:layout_weight="1" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:id="@+id/g01_news_information"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:paddingTop="5dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="5dp"
+                android:drawableLeft="@drawable/ic_notice_trans"
+                android:background="@drawable/util_gra_bluedeep_button_2"
+                android:textColor="@color/white" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:id="@+id/act_g02_frd_acc_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="5dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="5dp"
+                android:drawableLeft="@drawable/ic_settings_trans"
+                android:background="@drawable/util_gra_bluedeep_button_2"
+                android:textColor="@color/white"
+                android:layout_marginRight="4dp" />
+<!--
+            <Button
+                android:id="@+id/g01_p01_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ic_room"
+                android:drawablePadding="5dp"
+                android:paddingTop="8dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="8dp"
+                android:text="ログイン"
+                android:textColor="@color/white"
+                android:textSize="12dp"
+                android:background="@drawable/utility_button_g10p15_bottom" />-->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/util_com_headline_1"
+            android:gravity="center_horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="15dp"
+                android:src="@drawable/ic_p01_titel_01" />
+
+            <TextView
+                android:id="@+id/Button01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="今晩泊まる"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/util_brdr_except_top"
+            android:orientation="vertical"
+            android:layout_marginTop="-3dp">
+
+            <LinearLayout
+                android:id="@+id/group_01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp">
+
+                <LinearLayout
+                    android:id="@+id/ll_currentposition"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/util_row_start_off"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/btn_radio_01"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:text="現在地周辺"
+                        android:textColor="@color/black"
+                        android:checked="false"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView3"
+                        android:src="@drawable/ic_locatioin_trans"
+                        android:background="@drawable/util_gra_yellow_npad_ystroke_ycorner_clickable_dup1" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_keyword"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/util_row_middle_off"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/btn_radio_02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:paddingRight="5dp"
+                        android:textColor="@color/black"
+                        android:checked="false" />
+
+                    <Button
+                        android:id="@+id/g01_search_field"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:inputType="none"
+                        android:singleLine="true"
+                        android:layout_weight="1"
+                        android:background="@drawable/util_textview_bk_white"
+                        android:hint="目的地を入力"
+                        android:layout_marginRight="10dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView4"
+                        android:src="@drawable/ic_map_trans"
+                        android:background="@drawable/util_gra_yellow_npad_ystroke_ycorner_clickable_dup1" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_bookmark"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/util_row_end_off"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/btn_radio_03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:text="お気に入りのホテル"
+                        android:textColor="@color/black"
+                        android:checked="false"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView5"
+                        android:src="@drawable/ic_bookmark_trans"
+                        android:background="@drawable/util_gra_yellow_npad_ystroke_ycorner_clickable_dup1" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:id="@+id/group_02"
+                android:layout_marginBottom="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/la_btn_free_room01"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/util_topbox_white_off"
+                        android:orientation="vertical"
+
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingLeft="2dp"
+                        android:paddingTop="4dp"
+                        android:paddingRight="2dp"
+                        android:paddingBottom="4dp">
+
+                        <ImageView
+                            android:id="@+id/ImageView05"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/util_gra_greydeep_ypad_ystroke_ycorner_nclickable"
+                            android:padding="2dp"
+                            android:src="@drawable/g01_room_type01" />
+
+                        <TextView
+                            android:id="@+id/g01_person1_room1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:text="1名ｘ1室"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/la_btn_free_room02"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/util_topbox_white_off"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingLeft="2dp"
+                        android:paddingTop="6dp"
+                        android:paddingRight="2dp"
+                        android:paddingBottom="4dp">
+
+                        <ImageView
+                            android:id="@+id/ImageView04"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/util_gra_greydeep_ypad_ystroke_ycorner_nclickable"
+                            android:padding="2dp"
+                            android:src="@drawable/g01_room_type02" />
+
+                        <TextView
+                            android:id="@+id/g01_person2_room2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:text="2名ｘ1室"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:paddingBottom="4dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/la_btn_free_room03"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/util_topbox_white_off"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingLeft="2dp"
+                        android:paddingTop="6dp"
+                        android:paddingRight="2dp"
+                        android:paddingBottom="4dp">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/ImageView03"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/util_gra_greydeep_ypad_ystroke_ycorner_nclickable"
+                                android:padding="4dp"
+                                android:src="@drawable/g01_room_type03_1"
+                                android:layout_marginRight="2dp" />
+
+                            <ImageView
+                                android:id="@+id/imageView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/util_gra_greydeep_ypad_ystroke_ycorner_nclickable"
+                                android:padding="4dp"
+                                android:src="@drawable/g01_room_type03_1" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/g01_person1_room2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:text="1名ｘ2室"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/group_03">
+
+<!--                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:id="@+id/g01_btn_goto_g11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableLeft="@drawable/ic_room"
+                    android:drawablePadding="20dp"
+                    android:background="@drawable/util_gra_bluedeep_npad_ystroke_ycorner_yclickable_dup3"
+                    android:text="ホテル検索"
+                    android:textColor="@color/white"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp" />-->
+
+                <Button
+                    android:id="@+id/g01_btn_goto_g11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal|center"
+                    android:layout_centerHorizontal="true"
+                    android:drawableLeft="@drawable/ic_search"
+                    android:singleLine="true"
+                    android:text="ホテル検索"
+                    android:paddingLeft="90dp"
+                    android:drawablePadding="-90dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/util_gra_bluedeep_npad_ystroke_ycorner_yclickable_dup2"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/act_p09_frd"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_calender"
+            android:background="@drawable/util_com_button_2"
+            android:text="条件を指定してホテル検索"
+            android:textColor="@color/white"
+            android:drawablePadding="-50dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingLeft="60dp" />
+    </LinearLayout>
+
+</LinearLayout>

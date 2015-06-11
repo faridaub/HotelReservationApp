@@ -1,0 +1,891 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/util_titlebar_background"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout117"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingLeft="5dp">
+
+            <Button
+                android:id="@+id/g53_p53_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/home"
+                android:textColor="@color/white"
+                android:textSize="12dp"
+                android:background="@drawable/util_titlebar_button" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_margin="5dp" >
+
+            <TextView
+                android:id="@+id/textView135"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#fff"
+                android:textSize="18dp"
+                android:text="初期設定"
+                android:layout_marginLeft="60dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView4"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:id="@+id/g00_p50_group2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="15dp">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout104"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/util_com_background_1"
+                    android:orientation="vertical"
+                    android:padding="5dp" >
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout184"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/util_com_headline_1"
+                        android:orientation="horizontal"
+                        android:padding="10dp"
+                        android:gravity="center|left"
+                        android:layout_marginBottom="-3dp" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="left|center"
+                            android:orientation="vertical"
+                            android:id="@+id/linearLayout183"
+                            android:layout_weight="1" >
+
+                            <TextView
+                                android:id="@+id/textView261"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="2dp"
+                                android:text="ログイン情報"
+                                android:textColor="@color/white"
+                                android:textSize="13dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:background="@drawable/util_gra_greylite_npad_ystroke_ycorner_yclickable_dup3"
+                        android:padding="10dp"
+                        android:layout_marginBottom="-3dp">
+
+                        <TextView
+                            android:id="@+id/textView110"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ログインにはメールアドレスとパスワードが必要になります。 "
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/g53_p53_email_address1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="farid@japan.com"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/black"
+                            android:textSize="16dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:background="@drawable/util_gra_greylite_npad_ystroke_ycorner_yclickable_dup3"
+                        android:padding="10dp"
+                        android:layout_marginBottom="-3dp">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/g53_p53_email_1"
+                            android:singleLine="true"
+                            android:background="@drawable/util_textview_bk_pink"
+                            android:hint="メールアドレス"
+                            android:layout_marginBottom="5dp" />
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/g53_p53_email_1_confirm"
+                            android:singleLine="true"
+                            android:background="@drawable/util_textview_bk_pink"
+                            android:hint="メールアドレス（確認)"
+                            android:layout_marginBottom="5dp" />
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/g53_p53_password1"
+                            android:singleLine="true"
+                            android:inputType="textPassword"
+                            android:background="@drawable/util_textview_bk_pink"
+                            android:layout_marginBottom="5dp"
+                            android:hint="パスワード" />
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            android:id="@+id/g53_p53_password2"
+                            android:inputType="textPassword"
+                            android:background="@drawable/util_textview_bk_pink"
+                            android:hint="パスワード(確認)" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:background="@drawable/util_gra_greylite_npad_ystroke_ycorner_yclickable_dup3"
+                        android:padding="10dp"
+                        android:layout_marginBottom="10dp">
+
+                        <TextView
+                            android:id="@+id/textView109"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="アルファベット・数字を組合せ、6文字以上で設定してくださし。生年月日や電話番号など、第三者に推測されやすいパスワードは避けてください。 "
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/blue"
+                            android:textSize="12dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout107"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/util_com_headline_1"
+                        android:orientation="horizontal"
+                        android:padding="10dp"
+                        android:gravity="center|left"
+                        android:layout_marginBottom="-3dp" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="left|center"
+                            android:orientation="vertical"
+                            android:id="@+id/linearLayout81"
+                            android:layout_weight="1" >
+
+                            <TextView
+                                android:id="@+id/textView255"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="2dp"
+                                android:text="お客様基本情報"
+                                android:textColor="@color/white"
+                                android:textSize="13dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent" >
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="-3dp"
+                            android:background="@drawable/util_gra_greylite_npad_ystroke_ycorner_yclickable_dup3"
+                            android:padding="10dp"
+                            android:layout_marginRight="-3dp" >
+
+                            <TextView
+                                android:id="@+id/textView5014"
+                                android:layout_width="5dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:background="@color/blue"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:id="@+id/textView256"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="会員・一般"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textColor="@color/black"
+                                android:textSize="11dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginBottom="-3dp"
+                            android:background="@drawable/util_com_background_1"
+                            android:padding="10dp" >
+
+                            <TextView
+                                android:id="@+id/g53_p53_membership"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Suzuki"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textColor="@color/black"
+                                android:textSize="11dp"
+                                android:gravity="left" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent" >
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="-3dp"
+                            android:background="@drawable/util_gra_greylite_npad_ystroke_ycorner_yclickable_dup3"
+                            android:padding="10dp"
+                            android:layout_marginRight="-3dp" >
+
+                            <TextView
+                                android:id="@+id/textView5015"
+                                android:layout_width="5dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:background="@color/blue"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:id="@+id/textView5002"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="会員番号"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textColor="@color/black"
+                                android:textSize="11dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginBottom="-3dp"
+                            android:background="@drawable/util_com_background_1"
+                            android:padding="10dp" >
+
+                            <TextView
+                                android:id="@+id/g53_p53_membership_num"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Suzuki"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textColor="@color/black"
+                                android:textSize="11dp"
+                                android:gravity="left" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent" >
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="-3dp"
+                            android:background="@drawable/util_gra_greylite_npad_ystroke_ycorner_yclickable_dup3"
+                            android:padding="10dp"
+                            android:layout_marginRight="-3dp" >
+
+                            <TextView
+                                android:id="@+id/textView5016"
+                                android:layout_width="5dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:background="@color/blue"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:id="@+id/textView5003"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="姓（ｱﾙﾌｧﾍﾞｯﾄ） "
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textColor="@color/black"
+                                android:textSize="11dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginBottom="-3dp"
+                            android:background="@drawable/util_com_background_1"
+                            android:padding="10dp" >
+
+                            <TextView
+                                android:id="@+id/g53_p53_familyname"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Suzuki"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textColor="@color/black"
+                                android:textSize="11dp"
+                                android:gravity="left" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent" >
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="-3dp"
+                            android:background="@drawable/util_gra_greylite_npad_ystroke_ycorner_yclickable_dup3"
+                            android:padding="10dp"
+                            android:layout_marginRight="-3dp" >
+
+                            <TextView
+                                android:id="@+id/textView5017"
+                                android:layout_width="5dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:background="@color/blue"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:id="@+id/textView5004"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="名（ｱﾙﾌｧﾍﾞｯﾄ） "
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textColor="@color/black"
+                                android:textSize="11dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginBottom="-3dp"
+                            android:background="@drawable/util_com_background_1"
+                            android:padding="10dp" >
+
+                            <TextView
+                                android:id="@+id/g53_p53_firstname"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Suzuki"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textColor="@color/black"
+                                android:textSize="11dp"
+                                android:gravity="left" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent" >
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="-3dp"
+                            android:background="@drawable/util_gra_greylite_npad_ystroke_ycorner_yclickable_dup3"
+                            android:padding="10dp"
+                            android:layout_marginRight="-3dp" >
+
+                            <TextView
+                                android:id="@+id/textView5018"
+                                android:layout_width="5dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:background="@color/blue"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:id="@+id/textView5005"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="生年月日 "
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textColor="@color/black"
+                                android:textSize="11dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginBottom="-3dp"
+                            android:background="@drawable/util_com_background_1"
+                            android:padding="10dp" >
+
+                            <TextView
+                                android:id="@+id/g53_p53_dob"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Suzuki"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textColor="@color/black"
+                                android:textSize="11dp"
+                                android:gravity="left" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent" >
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="-3dp"
+                            android:background="@drawable/util_gra_greylite_npad_ystroke_ycorner_yclickable_dup3"
+                            android:padding="10dp"
+                            android:layout_marginRight="-3dp" >
+
+                            <TextView
+                                android:id="@+id/textView5019"
+                                android:layout_width="5dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:background="@color/blue"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:id="@+id/textView5006"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="国籍  "
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textColor="@color/black"
+                                android:textSize="11dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginBottom="-3dp"
+                            android:background="@drawable/util_com_background_1"
+                            android:padding="10dp" >
+
+                            <TextView
+                                android:id="@+id/g53_p53_country"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Suzuki"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textColor="@color/black"
+                                android:textSize="11dp"
+                                android:gravity="left" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent" >
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="-3dp"
+                            android:background="@drawable/util_gra_greylite_npad_ystroke_ycorner_yclickable_dup3"
+                            android:padding="10dp"
+                            android:layout_marginRight="-3dp" >
+
+                            <TextView
+                                android:id="@+id/textView5020"
+                                android:layout_width="5dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:background="@color/blue"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:id="@+id/textView5007"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="性別  "
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textColor="@color/black"
+                                android:textSize="11dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginBottom="-3dp"
+                            android:background="@drawable/util_com_background_1"
+                            android:padding="10dp" >
+
+                            <TextView
+                                android:id="@+id/g53_p53_sex"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Suzuki"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textColor="@color/black"
+                                android:textSize="11dp"
+                                android:gravity="left" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent" >
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="-3dp"
+                            android:background="@drawable/util_gra_greylite_npad_ystroke_ycorner_yclickable_dup3"
+                            android:padding="10dp"
+                            android:layout_marginRight="-3dp" >
+
+                            <TextView
+                                android:id="@+id/textView5021"
+                                android:layout_width="5dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:background="@color/blue"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:id="@+id/textView5008"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="電話番号 "
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textColor="@color/black"
+                                android:textSize="11dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginBottom="-3dp"
+                            android:background="@drawable/util_com_background_1"
+                            android:padding="10dp" >
+
+                            <TextView
+                                android:id="@+id/g53_p53_phn_num"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Suzuki"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textColor="@color/black"
+                                android:textSize="11dp"
+                                android:gravity="left" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="10dp" >
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/util_gra_greylite_npad_ystroke_ycorner_yclickable_dup3"
+                            android:padding="10dp"
+                            android:layout_marginRight="-3dp" >
+
+                            <TextView
+                                android:id="@+id/textView5022"
+                                android:layout_width="5dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:background="@color/blue"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:id="@+id/textView5023"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ﾒｰﾙｱﾄﾞﾚｽ2（任意）"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textColor="@color/black"
+                                android:textSize="11dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="@drawable/util_com_background_1"
+                            android:padding="10dp" >
+
+                            <TextView
+                                android:id="@+id/g53_p53_email2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Suzuki"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textColor="@color/black"
+                                android:textSize="11dp"
+                                android:gravity="left" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout180"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/util_com_headline_1"
+                        android:orientation="horizontal"
+                        android:padding="10dp"
+                        android:gravity="center|left"
+                        android:layout_marginBottom="-3dp"
+                        android:baselineAligned="false">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="left|center"
+                            android:orientation="vertical"
+                            android:id="@+id/linearLayout179"
+                            android:layout_weight="1" >
+
+                            <TextView
+                                android:id="@+id/textView1261"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="2dp"
+                                android:text="メール配信情報"
+                                android:textColor="@color/white"
+                                android:textSize="13dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout185"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/util_com_background_1"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:layout_marginBottom="-3dp" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center"
+                            android:orientation="horizontal" >
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" >
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="5dp" >
+
+                                    <TextView
+                                        android:id="@+id/textView262"
+                                        android:layout_width="5dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="5dp"
+                                        android:background="@color/blue"
+                                        android:textAppearance="?android:attr/textAppearanceSmall"
+                                        android:textColor="@color/black" />
+
+                                    <TextView
+                                        android:id="@+id/textView264"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="東横INNメルマガ "
+                                        android:textAppearance="?android:attr/textAppearanceSmall"
+                                        android:textColor="@color/black" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" >
+
+                                    <TextView
+                                        android:id="@+id/textView265"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="お得情報満載＆プレゼント付き！ "
+                                        android:textAppearance="?android:attr/textAppearanceSmall"
+                                        android:textColor="@color/blue"
+                                        android:textSize="10dp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" >
+
+                                <ToggleButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="New ToggleButton"
+                                    android:id="@+id/g53_p53_mail_submit_flag"
+                                    android:checked="false" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout181"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/util_com_background_1"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:layout_marginBottom="10dp" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center"
+                            android:orientation="horizontal" >
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" >
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center" >
+
+                                    <Button
+                                        style="?android:attr/buttonStyleSmall"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="個人情報の取り扱いについて"
+                                        android:id="@+id/g53_p53_agreement"
+                                        android:background="@drawable/util_com_button_1"
+                                        android:textColor="@color/white"
+                                        android:paddingLeft="15dp"
+                                        android:paddingRight="15dp"
+                                        android:paddingTop="8dp"
+                                        android:paddingBottom="8dp"
+                                        android:textSize="10dp"
+                                        android:layout_weight="1" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/util_com_headline_1"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout182"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/g53_p53_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="8dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="8dp"
+            android:text="同意して確認画面へ "
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            android:background="@drawable/util_gra_bluedeep_npad_ystroke_ycorner_yclickable_dup2" />
+    </LinearLayout>
+
+</LinearLayout>

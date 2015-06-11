@@ -1,0 +1,172 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/util_titlebar_background"
+        android:orientation="horizontal"
+        android:id="@+id/TopTitle"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingLeft="5dp" >
+
+            <!--android:drawableLeft="@drawable/ic_back"-->
+            <Button
+                android:id="@+id/g04_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawablePadding="5dp"
+                android:text="@string/back"
+                android:textColor="@color/white"
+                android:textSize="12dp"
+                android:background="@drawable/util_titlebar_button" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/textView279"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="目的地"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#fff"
+                android:textSize="16dp"
+                android:layout_marginRight="25dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="5dp"
+        android:id="@+id/Body"
+        android:background="@drawable/util_bro_greenlite_only">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/util_com_headline_1"
+            android:padding="10dp"
+            android:gravity="center"
+            android:id="@+id/KeywordInputbox">
+
+    <!--
+            <EditText
+                android:id="@+id/g04_destination_search_key"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:imeOptions="actionSearch"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingLeft="30dp" >
+                <requestFocus />
+            </EditText>-->
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:imeOptions="actionSearch"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:id="@+id/g04_p02_keyword"
+                android:background="@drawable/util_textview_bk_pink" />
+
+            <Button
+                android:id="@+id/g04_p02_btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ic_back"
+                android:drawablePadding="5dp"
+                android:paddingTop="8dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="8dp"
+                android:text="キャンセル"
+                android:textColor="@color/white"
+                android:textSize="12dp"
+                android:background="@drawable/util_gra_bluedeep_button_2" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:id="@+id/g04_p02_SwitchButton">
+
+            <Button
+                android:id="@+id/p02_json_action"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/util_gra_bluedeep_ypad_ystroke_ycorner_yclickable_on"
+                android:text="履歴"
+                android:textColor="@color/white"
+                android:drawableLeft="@drawable/ic_history_sml"
+                android:drawablePadding="5dp"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/goto_g05_search_by_area"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/util_gra_greylite_ypad_ystroke_ycorner_clickable_off"
+                android:text="エリア選択"
+                android:textColor="#666666"
+                android:drawableLeft="@drawable/ic_map_small"
+                android:drawablePadding="5dp"
+                android:textSize="14dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.92"
+            android:orientation="vertical"
+            android:id="@+id/g04_p02_HistoryListView"
+            android:layout_margin="10dp">
+
+            <ListView
+                android:id="@+id/g04_p02_historydata"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.87"
+                android:background="@drawable/util_bk_br_white">
+            </ListView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

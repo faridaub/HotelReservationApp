@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/util_gra_bluedeep_npad_nstroke_ycorner_yclickable"
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="95dp"
+            android:layout_height="110dp"
+            android:padding="2dp">
+
+            <ImageView
+                android:id="@+id/g11_hotel_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:contentDescription="@string/app_name"
+                android:gravity="center_vertical"
+                android:focusableInTouchMode="false"
+                android:background="@drawable/no_image" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            android:background="@drawable/util_gra_reddeep_ypad_ystroke_ycorner_nclickable"
+            android:layout_marginTop="-10dp"
+            android:gravity="center"
+            android:id="@+id/linearLayout"
+            android:layout_marginLeft="-5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView3"
+                android:background="@drawable/ic_room" />
+
+            <TextView
+                android:id="@+id/g11p04_nmbr_of_remans_room"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="残り５室"
+                android:textSize="9dp"
+                android:textColor="@color/white"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.45"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/g11_hotel_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="東横INN蒲田1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/black"
+            android:textSize="13dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="4dp" >
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@color/red"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:text="会員"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/g11_mmbrPrc"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="7,300円"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/grey_4"
+                android:textSize="11dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/ic_arrow_2" />
+
+            <TextView
+                android:id="@+id/g11_mmbrOffclWebDscntPrc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7,300円"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/red"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="4dp" >
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@color/blue"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:text="一般"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/white"
+                android:textSize="11sp"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/g11_listPrc"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="7,300円"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/grey_4"
+                android:textSize="11dp" />
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/ic_arrow_2" />
+
+            <TextView
+                android:id="@+id/g11_offclWebDscntPrc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7,300円"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/red"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="2dp">
+
+            <TextView
+                android:id="@+id/g11_description"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="5dp"
+                android:text="JR 蒲田駅徒歩5分、京浜急"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/util_gra_orangelite_ypad_ystroke_ycorner_nclickable"
+            android:gravity="center|left"
+            android:id="@+id/g11_access_layout">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:src="@drawable/ic_hotel_list_distance"
+                android:layout_marginRight="5dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/util_gra_whitedeep_ypad_nstroke_ycorner_yclickable"
+                android:gravity="center|left">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="現在地から 1.5km"
+                    android:id="@+id/g11p04_current_distance"
+                    android:textColor="@color/black"
+                    android:textSize="11dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:src="@drawable/arr_right_arrow_small" />
+    </LinearLayout>
+
+</LinearLayout>

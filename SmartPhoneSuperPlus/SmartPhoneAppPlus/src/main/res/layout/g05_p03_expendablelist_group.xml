@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="left|center">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/util_com_headline_1"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/g05_area_name_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
+            android:textSize="14dp"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/util_gra_whitelite_1"
+        android:padding="10dp"
+        android:gravity="left|center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/g05_arrow"
+            android:background="@drawable/ic_arrow_next" />
+
+        <TextView
+            android:id="@+id/g05_area_name_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:gravity="left|center"
+            android:layout_marginRight="20dp" />
+
+        <TextView
+            android:id="@+id/hotel_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/util_gra_yellow_rectangle"
+            android:tag="4dp"
+            android:text="112"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:gravity="center" />
+    </LinearLayout>
+
+</LinearLayout>
